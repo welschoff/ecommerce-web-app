@@ -4,7 +4,7 @@
   <mat-card>
     <mat-list>
       <mat-list-item *ngFor="let item of cartItems">
-        <span matListItemTitle>{{ item.name }}</span>
+        <span matListItemTitle>{{ item.title }}</span>
         <span matListItemLine>{{ item.price | currency : "USD" }}</span>
       </mat-list-item>
 
